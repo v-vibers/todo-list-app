@@ -13,7 +13,7 @@
 .app-header h1 {
   font-size: 3rem;
   font-weight: 100;
-  color: #af50bd;
+  color: #3b82f6;
   margin: 0;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -42,8 +42,8 @@
 }
 
 .add-todo-input:focus {
-  border-color: #af50bd;
-  box-shadow: 0 0 0 3px rgba(175, 80, 189, 0.1);
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 .add-todo-input::placeholder {
@@ -54,7 +54,7 @@
 .add-todo-button {
   margin-left: 0.75rem;
   padding: 0.75rem 1.5rem;
-  background: #af50bd;
+  background: #3b82f6;
   color: white;
   border: none;
   border-radius: 8px;
@@ -65,7 +65,7 @@
 }
 
 .add-todo-button:hover {
-  background: #9333ea;
+  background: #2563eb;
 }
 
 .add-todo-button:active {
@@ -107,7 +107,7 @@
   width: 20px;
   height: 20px;
   cursor: pointer;
-  accent-color: #af50bd;
+  accent-color: #3b82f6;
 }
 
 .todo-text {
@@ -121,7 +121,7 @@
 .todo-edit {
   flex: 1;
   padding: 0.5rem;
-  border: 2px solid #af50bd;
+  border: 2px solid #3b82f6;
   border-radius: 4px;
   font-size: 1rem;
   outline: none;
@@ -183,9 +183,9 @@
 }
 
 .filter-button.selected {
-  background: #af50bd;
+  background: #3b82f6;
   color: white;
-  border-color: #af50bd;
+  border-color: #3b82f6;
 }
 
 .clear-completed {
